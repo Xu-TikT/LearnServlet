@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>ServletTest</servlet-name>
+        <servlet-class>webservlet.ServletTest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletTest</servlet-name>
+        <url-pattern>/webservlet/ServletTest</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletTwo</servlet-name>
+        <servlet-class>webservlet.ServletTwo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletTwo</servlet-name>
+        <url-pattern>/webservlet/ServletTwo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletLifeTest1</servlet-name>
+        <servlet-class>webservlet.ServletLifeTest1</servlet-class>
+        <load-on-startup>2</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletLifeTest1</servlet-name>
+        <url-pattern>/webservlet/ServletLifeTest1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletLifeTest2</servlet-name>
+        <servlet-class>webservlet.ServletLifeTest2</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletLifeTest2</servlet-name>
+        <url-pattern>/webservlet/ServletLifeTest2</url-pattern>
+    </servlet-mapping>
+
+</web-app>
