@@ -38,5 +38,9 @@
 <a href="<%=path%>/servletpathdirection/HelloServlet">绝对路径访问HelloServlet!</a><br>
 <%--表单中action的Url地址写法与超链接方式完全相同--%>
 <a href="servletpathdirection/TestServlet">访问TestServlet,跳转到test.jsp</a>
+
+<h1>登陆Demo</h1>
+<hr>
+<a href="login.jsp">跳转到登陆界面</a>
 </body>
 </html>

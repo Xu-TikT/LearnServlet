@@ -66,4 +66,13 @@
         <servlet-name>TestServlet</servlet-name>
         <url-pattern>/servletpathdirection/TestServlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servletlogin.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/servletlogin/LoginServlet</url-pattern>
+    </servlet-mapping>
 </web-app>

@@ -29,7 +29,9 @@ public class TestServlet extends HttpServlet {
          */
         //在Run/Debug configuration中选择项目运行配置中的Deployment,在右边的Applicaiton context中填写自定义的根目录地址,解决了上述问题
 //        resp.sendRedirect(req.getContextPath() + "/test.jsp");
-        //使用服务器内部跳转
+        /*
+        使用服务器内部跳转
+         */
 //        req.getRequestDispatcher("test.jsp").forward(req, resp);  这样写仍然是跳转到当前目录下的test.jsp
         //这里的/表示项目的根目录
 //        req.getRequestDispatcher("/test.jsp").forward(req, resp);
