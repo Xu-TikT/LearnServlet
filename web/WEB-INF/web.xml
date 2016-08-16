@@ -44,10 +44,26 @@
     <servlet>
         <servlet-name>RegServlet</servlet-name>
         <servlet-class>webservlet.RegServlet</servlet-class>
-        <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
         <servlet-name>RegServlet</servlet-name>
         <url-pattern>/webservlet/RegServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>servletpathdirection.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <!--url-pattern处必须毅/开头，这里的/表示项目的根目录-->
+        <url-pattern>/servletpathdirection/HelloServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>TestServlet</servlet-name>
+        <servlet-class>servletpathdirection.TestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TestServlet</servlet-name>
+        <url-pattern>/servletpathdirection/TestServlet</url-pattern>
     </servlet-mapping>
 </web-app>
