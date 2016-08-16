@@ -42,5 +42,8 @@
 <h1>登陆Demo</h1>
 <hr>
 <a href="login.jsp">跳转到登陆界面</a>
+<h1>获取初始化参数演示案例</h1>
+<hr>
+<a href="servletGetInitParameter/GetInitParameterServlet">获取初始化参数Servlet</a>
 </body>
 </html>

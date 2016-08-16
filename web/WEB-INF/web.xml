@@ -75,4 +75,22 @@
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/servletlogin/LoginServlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetInitParameterServlet</servlet-name>
+        <servlet-class>servletGetInitParameter.GetInitParameterServlet</servlet-class>
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>admin</param-value>
+        </init-param>
+        <init-param>
+            <param-name>password</param-name>
+            <param-value>123456</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetInitParameterServlet</servlet-name>
+        <url-pattern>/servletGetInitParameter/GetInitParameterServlet</url-pattern>
+    </servlet-mapping>
+
 </web-app>
