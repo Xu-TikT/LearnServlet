@@ -41,4 +41,13 @@
         <url-pattern>/webservlet/ServletLifeTest2</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>RegServlet</servlet-name>
+        <servlet-class>webservlet.RegServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegServlet</servlet-name>
+        <url-pattern>/webservlet/RegServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
