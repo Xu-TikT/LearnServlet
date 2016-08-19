@@ -45,5 +45,8 @@
 <h1>获取初始化参数演示案例</h1>
 <hr>
 <a href="servletGetInitParameter/GetInitParameterServlet">获取初始化参数Servlet</a>
+<h1>Servlet高级-购物车案例</h1>
+<hr>
+<a href="cartDemo.jsp">Servlet高级-购物车案例</a>
 </body>
 </html>

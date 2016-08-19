@@ -18,7 +18,7 @@ public class ServletTwo extends HttpServlet {
         //向网页发送
         response.setContentType("text/html;charset=utf-8");//使其输出支持html标签
         PrintWriter out = response.getWriter();
-//        out.print("<strong>Hello I am Servlet Post</strong>");
+//        out.print("<strong>Hello I am CartServlet Post</strong>");
         out.print("{\"response\":\"I get your Post request\"}");
     }
 

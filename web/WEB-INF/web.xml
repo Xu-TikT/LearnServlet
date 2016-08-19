@@ -92,5 +92,12 @@
         <servlet-name>GetInitParameterServlet</servlet-name>
         <url-pattern>/servletGetInitParameter/GetInitParameterServlet</url-pattern>
     </servlet-mapping>
-
+    <servlet>
+        <servlet-name>CartServlet</servlet-name>
+        <servlet-class>servletCart.CartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CartServlet</servlet-name>
+        <url-pattern>/servletCart/CartServlet</url-pattern>
+    </servlet-mapping>
 </web-app>

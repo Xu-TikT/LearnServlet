@@ -29,7 +29,7 @@ public class ListenerTest implements ServletContextListener,
     }
 
     public void contextDestroyed(ServletContextEvent sce) {
-      /* This method is invoked when the Servlet Context 
+      /* This method is invoked when the CartServlet Context
          (the Web application) is undeployed or 
          Application Server shuts down.
       */
